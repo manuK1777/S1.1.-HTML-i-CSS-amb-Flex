@@ -128,8 +128,6 @@ html {
     .up-header {
         display: flex;
         flex-direction: column;
-        background-color: #2c3352;
-        padding: 16px;
     }
 
     .logo, .nav, .social {
@@ -153,7 +151,50 @@ html {
     .nav2 {
         margin-top: 0;
     }
+
+    .publi {
+        margin-top: 16px;
+    }
 }
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .up-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo, .nav, .social {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .logo, .nav {
+       margin-bottom: 16px;
+    }            
+
+    .main-publi-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main {
+        margin-right: 0;
+    }
+
+    .nav2 {
+        margin-top: 0;
+    }
+
+    .articles {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .publi {
+        margin-top: 16px;
+    }
+} 
 
 
 
